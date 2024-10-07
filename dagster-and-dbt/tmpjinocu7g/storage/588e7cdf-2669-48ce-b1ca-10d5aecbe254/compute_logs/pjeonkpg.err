@@ -1,0 +1,5 @@
+[32m2024-10-07 11:32:56 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB_0 - 588e7cdf-2669-48ce-b1ca-10d5aecbe254 - 182414 - LOGS_CAPTURED - Started capturing logs in process (pid: 182414).
+[32m2024-10-07 11:32:56 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB_0 - 588e7cdf-2669-48ce-b1ca-10d5aecbe254 - 182414 - airport_trips - STEP_START - Started execution of step "airport_trips".
+[32m2024-10-07 11:32:57 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB_0 - 588e7cdf-2669-48ce-b1ca-10d5aecbe254 - 182414 - airport_trips - STEP_OUTPUT - Yielded output "result" of type "Nothing". (Type check passed).
+[32m2024-10-07 11:32:57 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB_0 - 588e7cdf-2669-48ce-b1ca-10d5aecbe254 - 182414 - airport_trips - ASSET_MATERIALIZATION - Materialized value airport_trips.
+[32m2024-10-07 11:32:57 +0200[0m - dagster - [34mDEBUG[0m - __ASSET_JOB_0 - 588e7cdf-2669-48ce-b1ca-10d5aecbe254 - 182414 - airport_trips - STEP_SUCCESS - Finished execution of step "airport_trips" in 1.6s.

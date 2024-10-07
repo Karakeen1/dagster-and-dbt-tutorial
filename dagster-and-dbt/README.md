@@ -1,7 +1,7 @@
 folder: dagster_dbt_tutorial
 activate environment: source dagster_dbt_tut_env/bin/activate
 change folder: cd dagster-and-dbt
-command: dagster dev from the directory.
+command: dagster dev 
 
 
 
