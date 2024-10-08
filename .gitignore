@@ -1,3 +1,4 @@
 /dagster_dbt_tut_env/
 /dagster-and-dbt/.env
 /dagster-and-dbt/data/
+dagster-and-dbt/tmp*/
