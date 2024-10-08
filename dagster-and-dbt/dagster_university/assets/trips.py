@@ -7,6 +7,7 @@ from dagster_duckdb import DuckDBResource
 from smart_open import open
 
 from ..partitions import monthly_partition
+from ..partitions import daily_partition # to solve dagster._core.errors.DagsterInvalidDefinitionError added to taxi_trips_file and taxi_trips
 from ..resources import smart_open_config
 from . import constants
 
@@ -53,7 +54,7 @@ def taxi_zones(context: AssetExecutionContext, database: DuckDBResource):
 
 
 @asset(
-    partitions_def=monthly_partition,
+    partitions_def=monthly_partition, # dagster._core.errors.DagsterInvalidDefinitionError: 
     group_name="raw_files",
     compute_kind="DuckDB",
 )

@@ -1,0 +1,9 @@
+Running with dbt=1.8.7
+Registered adapter: duckdb=1.8.4
+Found 4 models, 2 data tests, 2 sources, 530 macros
+
+
+Finished running  in 0 hours 0 minutes and 0.08 seconds (0.08s).
+Encountered an error:
+Runtime Error
+  IO Error: Could not set lock on file "/home/me/dagster_dbt_tutorial/dagster-and-dbt/analytics/../data/staging/data.duckdb": Conflicting lock is held in /home/me/miniconda3/bin/python3.12 (PID 108687). See also https://duckdb.org/docs/connect/concurrency
